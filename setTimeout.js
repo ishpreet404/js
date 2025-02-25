@@ -3,3 +3,4 @@ for(let i=1;i<=10;i++){ // i was declared a let because let has a block scope an
         console.log(i);
     }),i*1000)
 }
+//return ke baad nhi chalta hai code 
