@@ -20,4 +20,10 @@ var c = function xyz (){
 c();
 // xyz(); //error
 
-//firstclassfunction
+//firstclassfunction or first class citizens
+const h = function (param1){
+    return function zzz(){
+
+    }
+}
+console.log(h());
