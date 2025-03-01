@@ -2,7 +2,7 @@
 console.log("start");
 setTimeout(function cb(){
     console.log("callback");
-},0);
+},0); //defer
 console.log("end");
 let startdate = new Date().getTime();
 let enddate = startdate;
