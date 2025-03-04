@@ -12,9 +12,9 @@ const user =fetch(github_api);
 console.log(user);
 //three states pending fullfilles rejected
 api.createorder(cart).then(function(){
-    api.createpayment()})
+    return createpayment()})
 .then(function (payemntinfo){
-    updatewallet(payemntinfo);
+    return updatewallet(payemntinfo); //return to get data
 });
 //promise chaining
 // to avoid callback hells
