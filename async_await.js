@@ -29,3 +29,4 @@ async function handlepromise() {
 }
 handlepromise();//function exectution suspesnds when it sees await function until promise is reolved 
 
+    
