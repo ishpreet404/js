@@ -6,7 +6,7 @@
 // console.log(data);
 // data.then(res => console.log(res));
 
-// //
+//
 const p = new Promise((resolve,reject)=>{
     setTimeout(()=>{
         resolve("promise resolved value");
