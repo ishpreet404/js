@@ -1,4 +1,4 @@
-// //async function always returns a promise 
+// async function always returns a promise 
 // async function getdata() {
 //     return "will wrap this value inside a promise";
 // }
